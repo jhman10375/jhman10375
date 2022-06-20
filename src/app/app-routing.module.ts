@@ -8,12 +8,11 @@ import { WorkComponent } from './Pages/work/work.component';
 
 const routes: Routes = [
   
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'activities', component: ActivitiesComponent },
   { path: 'awards', component: AwardsComponent },
   { path: 'work', component: WorkComponent },
-  { path: 'resume', component: ResumeComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: 'resume', component: ResumeComponent }
 ];
 
 @NgModule({
